@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japonia - Przewodnik</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://images.unsplash.com/photo-1522383225653-ed111181a951?q=80&w=1600') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .overlay { background: rgba(255, 255, 255, 0.88); min-height: 100vh; }
+        header { 
+            background: #bc002d; color: white; text-align: center; 
+            padding: 50px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .container { max-width: 1100px; margin: auto; padding: 30px; }
+        h1 { font-size: 3rem; margin: 0; }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 25px; margin-top: 30px;
+        }
+        .card { 
+            background: white; border-radius: 12px; overflow: hidden; 
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1); transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-body { padding: 20px; }
+        .card-body h3 { color: #bc002d; margin-top: 0; }
+        .card-body p { color: #444; font-size: 0.95rem; line-height: 1.6; }
+        .info-sec { 
+            background: white; padding: 30px; border-radius: 12px; 
+            margin-bottom: 40px; border-left: 8px solid #bc002d;
+        }
+        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+<div class="overlay">
+    <header>
+        <h1>Japonia</h1>
+        <p>Kraj Kwitnącej Wiśni i Nowoczesnych Technologii</p>
+    </header>
+
+    <div class="container">
+        <section class="info-sec">
+            <h2>Dlaczego warto odwiedzić Japonię?</h2>
+            <p>Japonia to fascynująca mieszanka tradycji i nowoczesności. Od neonów Tokio po spokojne ogrody Kioto, każdy znajdzie tu coś dla siebie. To kraj niezwykle bezpieczny, czysty i pełen kulinarnych odkryć.</p>
+        </section>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/484915982/pl/zdj%C4%99cie/akihabara-tokio.jpg?s=612x612&w=0&k=20&c=UODGVQtotebbsxcdZ6CwNSmdB25bFrBBDAqWJHf_OeA=" alt="Tokio">
+                <div class="card-body">
+                    <h3>Tokio</h3>
+                    <p>Stolica świata. Zobacz skrzyżowanie Shibuya, najwyższą wieżę Tokyo Skytree i poczuj klimat popkultury w dzielnicy Akihabara.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=600" alt="Fuji">
+                <div class="card-body">
+                    <h3>Góra Fuji</h3>
+                    <p>Ikona Japonii. Najwyższy szczyt (3776 m n.p.m.), który najlepiej podziwiać znad jeziora Kawaguchi lub z pagody Chureito.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://planetescape.pl/blog//app/uploads/2023/12/Kioto-%C5%9Awi%C4%85tynia-Kiyomizu-Dera_EWy.jpg" alt="Kioto">
+                <div class="card-body">
+                    <h3>Kioto</h3>
+                    <p>Serce tradycji. Znajdziesz tu tysiące świątyń, w tym słynną Fushimi Inari z czerwonymi bramami torii oraz luksusowe ogrody zen.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img
+Image
+
+Image
+src="https://planetescape.pl//app/uploads/2024/01/Nara-4.jpg" alt="Nara">
+                <div class="card-body">
+                    <h3>Nara</h3>
+                    <p>Pierwsza stolica Japonii, gdzie w parku swobodnie biegają jelenie, a w świątyni Todai-ji spoczywa ogromny posąg Buddy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Japonia Travel - Projekt na GitHub Pages</p>
+    </footer>
+</div>
+</body>
+</html>
